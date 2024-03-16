@@ -1,0 +1,45 @@
+.home-container{
+    background-image: url("https://media.istockphoto.com/id/1139415662/photo/that-was-a-breeze-a-girl-with-a-credit-card-in-one-hand-and-a-mobile-phone-in-other-is.jpg?s=612x612&w=0&k=20&c=ocMaJrR7z12v4QaJGTUfIt8qbf5wd_OxOnyMruOeLNU=");
+    background-size: cover;
+    height: 95vh;
+    margin-top: -22px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.home-heading{
+    color: rgb(19, 235, 15);
+    font-size: 60px;
+    width: 80%;
+    text-align: center;
+    margin-top: 150px;
+}
+.buy-button{
+    color: white;
+    background-color: rgb(43, 38, 38);
+    padding: 10px;
+    border-radius: 5px;
+    border: 0px;
+    transition: background-color 0.3s ease;
+}
+.buy-button:hover{
+    background-color:red;
+    transform: scale(1.2);
+}
+
+.home-para{
+    font-size: 25px;
+    color: rgb(73, 73, 221);
+    /* margin-top: 30px; */
+    font-weight: bold;
+}
+@media (max-width:768px){
+    .home-container{
+        background-image: url("https://img.freepik.com/free-photo/woman-posing-jumping-while-holding-shopping-bags_23-2148684543.jpg?size=626&ext=jpg&ga=GA1.1.994480206.1710504521&semt=ais"); 
+    }
+    .buy-button{
+        color: black;
+        background-color: white;
+    }
+}
