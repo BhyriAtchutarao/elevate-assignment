@@ -62,7 +62,7 @@ class Products extends Component{
       renderLoader = () => (
         <div className="products-loader-container" data-testid="loader">
           <Audio type="ThreeDots" color="#0b69ff" height="50" width="50" />
-        </div> // rendering the loader untill the api response came 
+        </div> // rendering the loader untill the api response came `
       )
 
 
